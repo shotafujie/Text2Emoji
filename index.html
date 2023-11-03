@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text2Emoji</title>
-    <link rel="icon" type="image/x-icon" href="icons/icon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<h1>Text2Emoji<img src="icons/iconText2Emoji.png" alt="Text2Emojiのアイコン" class="icon"></h1>
 <button onclick="startRecognition()">Start🎙️</button>
 <button onclick="stopRecognition()">Stop⏸️</button>
 <button onclick="deleteText()">Delete🗑️</button>
@@ -18,9 +18,12 @@
     <p>
     テキスト入力した文章あるいはStart🎙️ボタンを押して音声認識した認識結果のうち，単語を対応する絵文字に変換します．
     </p>
-    <textarea id="input" placeholder="ここに入力してみてね！" rows="10" oninput="updateEmoji()"></textarea>
+    <textarea id="input" placeholder="ここに入力してみてね！" rows="5" oninput="updateEmoji()"></textarea>
     <br>
-    <textarea id="output" placeholder="ここに結果が表示されるよ！" rows="10"></textarea>
+    <textarea id="output" placeholder="ここに結果が表示されるよ！" rows="5"></textarea>
+    <p>
+    対応している単語例:音声, 認識, 技術, 人, コンピュータ, テキスト, 命令, AI, ディープラーニング, モデル, データ, 学習, 人間, 製品, サービス, スマートスピーカー, ユーザー, 音楽, 天気, 家電, スマートフォン, 電話, スケジュール, 情報, 業務, 医療, 診断, 倉庫, 在庫, 手作業, 入力, 課題, 方言, アクセント, 雑音, 研究, 開発, 生活, 便利, ウォーターフォール, スパイラル, アジャイル, ソフトウェア, 開発, フェーズ, 要件, 設計, 実装, テスト, デプロイ, 保守, リスク, 計画, エンジニアリング, 評価, サイクル, フィードバック, スクラム, カンバン, 聴覚障害, 耳, 聴覚経路, 聴力, 難聴, 先天的, 外傷, 感染症, 老化, 高音量, 困難, コミュニケーション, 手話, 筆談, 補聴器, テクノロジー, スマートフォンアプリ, デバイス
+    </p>
 </div>
 <script src="script.js"></script>
 

@@ -37,6 +37,12 @@ button {
 button:hover {
     background-color: #005f5f;
 }
+
+.icon {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+}
 @media (max-width: 600px) {
     textarea {
         font-size: 14px;
